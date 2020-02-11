@@ -36,18 +36,18 @@ def db_seed():
                      distance=35.98e6)
 
     venus = Planet(planet_name='Venus',
-                         planet_type='Class K',
-                         home_star='Sol',
-                         mass=4.867e24,
-                         radius=3760,
-                         distance=67.24e6)
+                   planet_type='Class K',
+                   home_star='Sol',
+                   mass=4.867e24,
+                   radius=3760,
+                   distance=67.24e6)
 
     earth = Planet(planet_name='Earth',
-                     planet_type='Class M',
-                     home_star='Sol',
-                     mass=5.972e24,
-                     radius=3959,
-                     distance=92.96e6)
+                   planet_type='Class M',
+                   home_star='Sol',
+                   mass=5.972e24,
+                   radius=3959,
+                   distance=92.96e6)
 
     db.session.add(mercury)
     db.session.add(venus)
